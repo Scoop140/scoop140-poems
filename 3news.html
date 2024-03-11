@@ -15,6 +15,15 @@
 </head>
 <body>
 <h1>The Hodgkins Gazette</h1>
+<div id="current_date">
+    <script>
+        date = new Date();
+        year = date.getFullYear();
+        month = date.getMonth() + 1;
+        day = date.getDate();
+        document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+    </script>
+</div>
 <p>======================================================================</p>
 <h3>All the news that fit to print on a text-based webpage made by a guy in his bedroom.</h3>
 <p>======================================================================</p>	
